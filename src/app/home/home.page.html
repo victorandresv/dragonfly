@@ -77,7 +77,7 @@
 
     <ion-list *ngFor="let line of products; let i = index">
       <ion-item>
-        <div style="width:50%; text-align: center" *ngFor="let item of line; let n = index">
+        <div (click)="this.NavigateTo(item)" style="width:50%; text-align: center" *ngFor="let item of line; let n = index">
           <img style="height:94px;" src="{{item.img}}"/>
           <p>{{item.name}}</p>
           <p>{{item.unit}}</p>

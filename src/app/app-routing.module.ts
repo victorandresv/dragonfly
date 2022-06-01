@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
+  {
+    path: 'product/:product',
+    component: ProductComponent
+  },
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)

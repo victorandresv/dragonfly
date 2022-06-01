@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import data from '../../assets/products.json'
+import data from '../../assets/products.json';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,7 @@ export class HomePage {
   public products:any = [];
   public line:any = [];
 
-  constructor(){
+  constructor(private router: Router){
     for(let n = 0;n < data.length; n++){
       if(this.line.length  == 2){
         this.products.push(this.line);
@@ -23,6 +24,10 @@ export class HomePage {
       this.products.push(this.line);
         this.line = [];
     }
+  }
+
+  NavigateTo(item:any){
+    this.router.navigate(['/product/'+window.btoa(JSON.stringify(item))])
   }
 
 }
