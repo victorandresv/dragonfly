@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-title>
-      Blank
+      Brombatti Supermercados
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,82 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Brombatti Supermercados</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-searchbar placeholder="O que procura?"></ion-searchbar>
+        </ion-col>
+      </ion-row>
+
+      <h4>Nossas Oferfas</h4>
+
+      <ion-row>
+        <ion-col>
+          <ion-slides pager="true" [options]="slideOpts" style="height:230px">
+            <ion-slide>
+              <img style="height: 180px;" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQH7Ccm_I5kUwFyj1TvaJoTB3ABMTYl7DoSanFMzpoT_WABY3NnImMgplFOyFwSpLMrBYX0iAJzeA&usqp=CAc"/>
+              <p>
+                Cerveja Amstel 12 Unidades Lata 350ml
+                <br/>
+                BRL 35.90
+              </p>
+            </ion-slide>
+            <ion-slide>
+              <img style="height: 180px;" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTRRBFTOveBrjDfaWXR4hwk_KnA_h6bxPWXjAcFohRqW2xUrtUiTsqW8yUxsBeA_0734exfuRbfYtPPxpI0MzTr1wjVC1TJ9Q&usqp=CAE"/>
+              <p>
+                Carne Congelada Picanha Maturatta Kg
+                <br/>
+                BRL 94.90
+              </p>
+            </ion-slide>
+            <ion-slide>
+              <img style="height: 180px;" src="https://a-static.mlcdn.com.br/800x560/feijao-preto-fugini-250g/casaveg-acasadovegano/664839109/6db6cb723ab314015c1def3f4bf5c326.jpg"/>
+              <p>
+                Feijão Preto Fugini 250g
+                <br/>
+                BRL 7.39
+              </p>
+            </ion-slide>
+            <ion-slide>
+              <img style="height: 180px;" src="https://a-static.mlcdn.com.br/800x560/detergente-em-tabletes-para-lava-loucas-finish-powerball-super-poderoso-2119g/magazineluiza/218806100/a0630f16bd0580da741e674729ee1e29.jpg"/>
+              <p>
+                Lava-louças Finish - Powerball Super Poderoso 211,9g
+                <br/>
+                BRL 15.42
+              </p>
+            </ion-slide>
+            <ion-slide>
+              <img style="height: 180px;" src="https://a-static.mlcdn.com.br/800x560/extrato-de-tomate-quero-320g/magazineluiza/228569200/bbf995cdc04d99d8fbb0ba76436b1a25.jpg"/>
+              <p>
+                Extrato de Tomate Quero 320g
+                <br/>
+                BRL 1.59
+              </p>
+            </ion-slide>
+          </ion-slides>
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+
+    <h4>Nossos produtos</h4>
+
+    <ion-list *ngFor="let line of products; let i = index">
+      <ion-item>
+        <div style="width:50%; text-align: center" *ngFor="let item of line; let n = index">
+          <img style="height:94px;" src="{{item.img}}"/>
+          <p>{{item.name}}</p>
+          <p>{{item.unit}}</p>
+          <h4>BRL {{item.price}}</h4>
+        </div>
+      </ion-item>
+    </ion-list>
+
   </div>
 </ion-content>

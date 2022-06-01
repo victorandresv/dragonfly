@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Amendoim Doce Dacolônia Crocante Cri-Cri",
+        "unit": "140g",
+        "price": 4.49,
+        "img": "https://img.sitemercado.com.br/produtos/2fb586fec30d32193777bb49369d29f3e107fc5367fc2740af565c40cad303d8_full.jpg"
+    },{
+        "name": "Biscoito Água e Sal Isabela",
+        "unit": "400g",
+        "price": 7.49,
+        "img": "https://img.sitemercado.com.br/produtos/469564fcdb4fecb7f6f7a7faa7228998b75e4a6cf979b3ac2004fc1979689c14_full.jpg"
+    },{
+        "name": "Biscoito Integral Nesfit",
+        "unit": "126g",
+        "price": 3.69,
+        "img": "https://img.sitemercado.com.br/produtos/fcc1897190196b88ec9c569fce3c9ac6e2ad5baff1ce50b9d63d2307d11bfb7f_full.jpg"
+    },{
+        "name": "Biscoito Club Social Regular Original Embalagem Econômica",
+        "unit": "288g",
+        "price": 8.95,
+        "img": "https://img.sitemercado.com.br/produtos/5c9ec6f1812a9276c91f939a0def8be16d797a58cfb8338e95a209c36d953e98_full.jpg"
+    },{
+        "name": "Salgadinho Doritos Queijo Nacho",
+        "unit": "140g",
+        "price": 12.90,
+        "img": "https://img.sitemercado.com.br/produtos/85b452fc7d4fe6b259ad3dcb1d7443d81dff8323ab560c98a756619cd723de93_hero_full.jpg"
+    },{
+        "name": "Salgadinho de Batata Original Pringles",
+        "unit": "114g",
+        "price": 12.90,
+        "img": "https://img.sitemercado.com.br/produtos/eb8ff1030f93f0cc0f0c44c53e79b57c46bbd9a7ab93099991af085ca789af64_hero_full.jpg"
+    },{
+        "name": "Evita Mofo Secar Lavanda",
+        "unit": "80g",
+        "price": 7.65,
+        "img": "https://img.sitemercado.com.br/produtos/5e035e653d908ee3c798bf20e9b36407ba7a37b045d7fbc6ecba9d3c4e645bec_full.jpg"
+    },{
+        "name": "Detergente Cif Erva Doce",
+        "unit": "420g",
+        "price": 7.55,
+        "img": "https://img.sitemercado.com.br/produtos/58909fb854ac495ea283c530c424c66a455b867d11b0aa6999ad0c0c5a14a680_full.jpg"
+    },{
+        "name": "Detergente Líquido Maçã Ypê",
+        "unit": "500ml",
+        "price": 2.99,
+        "img": "https://img.sitemercado.com.br/produtos/dd9686ded1223787498c5305ebbd972fbf5b82dddd08a09cc2821321abb0140e_full.jpg"
+    },{
+        "name": "Detergente Ypê Clear",
+        "unit": "500ml",
+        "price": 2.99,
+        "img": "https://img.sitemercado.com.br/produtos/1c7f15987b2c01f81e3ce394d19007cdf2c5c0f869ebfcb12d5a022fcf725eee_full.jpg"
+    },{
+        "name": "Pão Cachorro Quente Italianinho",
+        "unit": "290g",
+        "price": 4.59,
+        "img": "https://img.sitemercado.com.br/produtos/a3c9161f84e068ad8a8e692b3f6787ce5ae0be350491a56236a952e6b456db48_full.jpg"
+    },{
+        "name": "Esponja Multiuso Limpeza Pesada Limppano",
+        "unit": "4 unidades",
+        "price": 5.15,
+        "img": "https://img.sitemercado.com.br/produtos/47b5cf67ba7d73b94223aa30c20f39bc15543e174b62b05a43f11e66d519ae55_full.jpg"
+    },{
+        "name": "Pano Multiuso Enxuto Condor",
+        "unit": "5 unidades",
+        "price": 8.49,
+        "img": "https://img.sitemercado.com.br/produtos/e27b2006c2e8a161d31a77112c2e9ce4aedefef0a0f7d29725a23a4c17f7292b_full.jpg"
+    },{
+        "name": "Esponja de Aço Bombril Oferta",
+        "unit": "8 unidades",
+        "price": 2.89,
+        "img": "https://img.sitemercado.com.br/produtos/1cc0a70e112466a177a4f090db37310c4c3e7b772b651332651dbd483076d36b_full.jpg"
+    },{
+        "name": "Requeijão Cremoso Piá Tradicional",
+        "unit": "500g",
+        "price": 12.79,
+        "img": "https://img.sitemercado.com.br/produtos/2c8f7871341e5f4235660a851b1c8a32873c60ed956ae1de76d143f95ac72c80_full.jpg"
+    },{
+        "name": "Margarina Delícia sem Sal",
+        "unit": "500g",
+        "price": 8.99,
+        "img": "https://img.sitemercado.com.br/produtos/071b326d01ff65a8ae338e3473cfb6c1ccea16eefea42165319dccec41b4e229_full.jpg"
+    },{
+        "name": "Margarina Cremosa com Sal Qualy Qmix",
+        "unit": "500g",
+        "price": 9.90,
+        "img": "https://img.sitemercado.com.br/produtos/ba854f89cb6d4b8bf09ab9a23436d5ec46a14c48e12b55c686bfab1eabb497c4_full.jpg"
+    },{
+        "name": "Queijo Petit Camembert President",
+        "unit": "125g",
+        "price": 27.49,
+        "img": "https://img.sitemercado.com.br/produtos/6bd2f70a01415489b84d139ca713832b1cfe0bbbf63dd15d2178c2af552b146f_full.jpg"
+    },{
+        "name": "Queijo de Porco Santa Clara",
+        "unit": "400g",
+        "price": 12.99,
+        "img": "https://img.sitemercado.com.br/produtos/2a20a3c5fd3587b5f389ee6b0cde5ead69ae21add9862a8463363e57b39583e7_full.jpg"
+    },{
+        "name": "Creme de Ricota Light Polenghi",
+        "unit": "150g",
+        "price": 5.99,
+        "img": "https://img.sitemercado.com.br/produtos/b71bf5d3e406a034bb32e4e83aa516c47442938f4b326eed601e2b72129802e9_full.jpg"
+    },{
+        "name": "Queijo Ralado President 4 Queijos",
+        "unit": "100g",
+        "price": 9.90,
+        "img": "https://img.sitemercado.com.br/produtos/29b295ddb44b8d93bef73ede0913ca03b28333ce1886f2c1b4b21dcfa9b0cece_full.jpg"
+    },{
+        "name": "Queijo Mussarela Santa Clara Fatiado",
+        "unit": "400g",
+        "price": 18.90,
+        "img": "https://img.sitemercado.com.br/produtos/608a6c552b634256f002d49fa5592bf96350acaf116dad60e89f9fd024560578_full.jpg"
+    },{
+        "name": "Presunto Fatiado Tipo Parma Sadia",
+        "unit": "100g",
+        "price": 26.99,
+        "img": "https://img.sitemercado.com.br/produtos/de5f595c97724460544d7ad2cfd61ee13d7944957a2ddf58b826695efc7686c5_full.jpg"
+    },{
+        "name": "Mortadela Defumada Fatiada Sadia",
+        "unit": "200g",
+        "price": 8.49,
+        "img": "https://img.sitemercado.com.br/produtos/f6515ac108b5852ceb8b392194e3d470247d37902d393406018cf12532bfa89f_full.jpg"
+    },{
+        "name": "Presunto Cozido Fatiado Vacuo",
+        "unit": "200g",
+        "price": 9.19,
+        "img": "https://img.sitemercado.com.br/produtos/f9e4c962c07c1eff2b83576b7cd2e0e41e1387fe88b980f6ed37b73ed41c3899_full.jpg"
+    },{
+        "name": "Cerveja Extra Long Neck Corona",
+        "unit": "330ml",
+        "price": 5.89,
+        "img": "https://img.sitemercado.com.br/produtos/daf1cd6ddaae4e585e6cf25e8e24cb056c0d27d471dbe9373e19c7098c096f7e_full.jpg"
+    },{
+        "name": "Cerveja Duplo Malte Puro Malte Brahma Lata",
+        "unit": "350ml",
+        "price": 3.00,
+        "img": "https://img.sitemercado.com.br/produtos/d28144b653625e2b2d994f9935385c059f3996da90ac1b6a7b8a9353d1ef8c2f_hero_full.jpg"
+    },{
+        "name": "Cerveja Heineken Lata",
+        "unit": "350ml",
+        "price": 4.79,
+        "img": "https://img.sitemercado.com.br/produtos/bc6d1ab7894a55e37062b364f53ee5a4696d6b73e0402e8cf0a6544f1fb77e57_full.jpg"
+    },{
+        "name": "Refrigerante Guaraná Antarctica Lata",
+        "unit": "350ml",
+        "price": 2.69,
+        "img": "https://img.sitemercado.com.br/produtos/74efaa38d45ebef095c39b0b1a09184239a673e794de910610038def2709324f_hero_full.jpg"
+    },{
+        "name": "Refrigerante Guaraná Fruki Light Lata",
+        "unit": "350ml",
+        "price": 2.29,
+        "img": "https://img.sitemercado.com.br/produtos/12b05bf9af34b6452bf40c5c160d00b077d5cebd2923b272ef99d372a09e028b_full.jpg"
+    },{
+        "name": "Coca-Cola Original",
+        "unit": "2l",
+        "price": 6.49,
+        "img": "https://img.sitemercado.com.br/produtos/bd61ee961d7400a84f9ec001b34682529c41b1e767d9185022b12f394930c49f_full.jpg"
+    },{
+        "name": "Água de Coco do Bem",
+        "unit": "1l",
+        "price": 10.49,
+        "img": "https://img.sitemercado.com.br/produtos/7d4710281a4b6bd3cdd7f3b9cd39e7674ca5e57703a032328bcc5e94aa5740ab_full.jpg"
+    },
+    {
+        "name": "Água Mineral com Gás Água da Pedra Garrafa",
+        "unit": "500ml",
+        "price": 1.59,
+        "img": "https://img.sitemercado.com.br/produtos/3fb81b66b4fafa2179e14eda56d7800a90718163e0662d295e254ce71d4012ec_full.jpg"
+    },
+    {
+        "name": "Ovos Primavis Caipira",
+        "unit": "12",
+        "price": 10.90,
+        "img": "https://img.sitemercado.com.br/produtos/23851cb878f5a114c220e8de4d97dbd5ad0a2f48c82160fba8b1baa5d900d760_full.jpg"
+    },
+    {
+        "name": "Ovos Stragliotto 2,5 Dz Branco Md",
+        "unit": "30",
+        "price": 21.75,
+        "img": "https://img.sitemercado.com.br/produtos/6bdfddd1f530dadfe238b440a026e20e3f73ca168d9b533d7d06219165053bb0_full.jpg"
+    },
+    {
+        "name": "Mistura para Pão Orquídea",
+        "unit": "1k",
+        "price": 5.99,
+        "img": "https://img.sitemercado.com.br/produtos/3e3c388e01d49bc4404a7458015ccdefef9c2b386c2117ccbd983e21f62da5ac_full.jpg"
+    },
+    {
+        "name": "Farinha de Trigo Isabela",
+        "unit": "1k",
+        "price": 3.99,
+        "img": "https://img.sitemercado.com.br/produtos/6948faee35afae60be973f2fe5ca8a268f3cd61bc92c4d0c9401b0aea1e2a25c_full.jpg"
+    },
+    {
+        "name": "Farofa Pronta Fritz e Frida",
+        "unit": "250g",
+        "price": 4.90,
+        "img": "https://img.sitemercado.com.br/produtos/7fd0065433785fd187da966c4748792a76bc9cf88b193f98a8d12c5193a10bd0_full.jpg"
+    },
+    {
+        "name": "Amido de Milho Maizena",
+        "unit": "500g",
+        "price": 10.89,
+        "img": "https://img.sitemercado.com.br/produtos/b45e4723191bfe2321f8f59b5b15adb865173de69c527d33e83a49726c0aeaeb_full.jpg"
+    },
+    {
+        "name": "Tapioca Natural Beijubom Pacote",
+        "unit": "500g",
+        "price": 6.69,
+        "img": "https://img.sitemercado.com.br/produtos/4ac9c43cc29df4423a95f918f5cc4f54f463c524a4ccc43d2484fa0d770dd6ab_full.jpg"
+    },
+    {
+        "name": "Feijão Carioca Tipo 1 Italianinho",
+        "unit": "1k",
+        "price": 8.65,
+        "img": "https://img.sitemercado.com.br/produtos/c2f17ec96faa55b47ae0313782456f4926c7de4bde21c190cfefe58cffd55060_full.jpg"
+    },
+    {
+        "name": "Feijão Carioca Fritz e Frida Pacote",
+        "unit": "500g",
+        "price": 5.95,
+        "img": "https://img.sitemercado.com.br/produtos/102bbb35502e590dd49a507c59274167970a37dd6e848d206792c1dfce5dce10_full.jpg"
+    },
+    {
+        "name": "Feijão Preto Italianinho",
+        "unit": "1k",
+        "price": 7.49,
+        "img": "https://img.sitemercado.com.br/produtos/2c8a93de224e82566cea0dfe657726cf5fdde0546bd9df9615609b3ba7b4a6e9_full.jpg"
+    },
+    {
+        "name": "Azeite Oliva Hemmer Extra Virgem",
+        "unit": "500ml",
+        "price": 29.90,
+        "img": "https://img.sitemercado.com.br/produtos/5fe3c9bad919dfd90f64062516f320dcb71d8cbf0e031dd7f2bf5b9af9b674f9_full.jpg"
+    },
+    {
+        "name": "Vinagre de Álcool Fritz & Frida",
+        "unit": "750ml",
+        "price": 3.39,
+        "img": "https://img.sitemercado.com.br/produtos/3953d632a7a92a88a9639b0404291c2d64324bda22ed7fc14f23d22e4500bfed_full.jpg"
+    },
+    {
+        "name": "Óleo de Soja Refinado Violeta",
+        "unit": "900ml",
+        "price": 9.95,
+        "img": "https://img.sitemercado.com.br/produtos/2c02db3c811eec343a7d6c70eb652f7b354097d4fd4692afee4aa82ad8f2ccda_full.jpg"
+    }
+]
