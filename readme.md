@@ -11,3 +11,6 @@ Run commands below and open with android studio
 ionic capacitor copy android
 ionic capacitor sync android
 ```
+
+### ICONS AND SPLASH
+https://capacitorjs.com/docs/guides/splash-screens-and-icons
