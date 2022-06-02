@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { CartComponent } from './cart/cart.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProductComponent } from './product/product.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -15,10 +14,6 @@ const routes: Routes = [
     component: ProfileComponent
   },
   {
-    path: 'cart',
-    component: CartComponent
-  },
-  {
     path: 'product/:product',
     component: ProductComponent
   },
@@ -31,12 +26,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'cart',
+    loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
+  },
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
-  ],
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

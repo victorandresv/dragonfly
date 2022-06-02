@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button (click)="this.NavigationBack()"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Meu carrinho</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-list inset *ngFor="let item of cart; let i = index">
+      <ion-item class="ion-no-padding">
+        <img style="height:90px" src="{{item.img}}"/>
+        <table style="margin-left: 10px;">
+          <tr>
+            <td colspan="3">
+              <b>{{item.name}}</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i>Quantidade: {{item.quantity}}</i>
+            </td>
+            <td class="pipe-divider"></td>
+            <td>
+              <i>Preço: {{item.price | currency}}</i>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <b style="color:green">Total: {{item.price*item.quantity | currency}}</b>
+            </td>
+          </tr>
+        </table>
+      </ion-item>
+    </ion-list>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h1>Preço total: {{total | currency}}</h1>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" size="large" color="primary" (click)="this.OrderPlace()">Fazer o pedido</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+</ion-content>
