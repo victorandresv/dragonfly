@@ -34,4 +34,8 @@ export class HomePage {
     this.router.navigate(['/cart']);
   }
 
+  Navigate2Profile(){
+    this.router.navigate(['/profile']);
+  }
+
 }
