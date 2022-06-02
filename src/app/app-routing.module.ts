@@ -1,14 +1,9 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { OrdersComponent } from './orders/orders.component';
 import { ProductComponent } from './product/product.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
-  {
-    path: 'orders',
-    component: OrdersComponent
-  },
   {
     path: 'profile',
     component: ProfileComponent
@@ -29,6 +24,14 @@ const routes: Routes = [
   {
     path: 'cart',
     loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
+  },
+  {
+    path: 'orders',
+    loadChildren: () => import('./orders/orders.module').then( m => m.OrdersPageModule)
+  },
+  {
+    path: 'order-detail/:order',
+    loadChildren: () => import('./order-detail/order-detail.module').then( m => m.OrderDetailPageModule)
   },
 ];
 

@@ -8,7 +8,10 @@
 </ion-header>
 
 <ion-content>
-  <div>
+  <div *ngIf="cart.length == 0">
+    <p style="padding: 10px;">Você não tem itens no seu carrinho de compras</p>
+  </div>
+  <div *ngIf="cart.length > 0">
     <ion-list inset *ngFor="let item of cart; let i = index">
       <ion-item class="ion-no-padding">
         <img style="height:90px" src="{{item.img}}"/>
@@ -44,7 +47,9 @@
       </ion-row>
       <ion-row>
         <ion-col>
-          <ion-button expand="block" size="large" color="primary" (click)="this.OrderPlace()">Fazer o pedido</ion-button>
+          <ion-button expand="block" size="large" color="primary" (click)="this.OrderPlace()">
+            Fazer o pedido
+          </ion-button>
         </ion-col>
       </ion-row>
     </ion-grid>

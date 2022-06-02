@@ -21,7 +21,6 @@ export class CartPage implements OnInit {
       this.cart = JSON.parse(sessionStorage.getItem("cart"));
     }
     this.cart.forEach(element => {
-      console.log(element)
       this.total = this.total + (element.price*element.quantity);
     });
   }
@@ -31,7 +30,18 @@ export class CartPage implements OnInit {
   }
 
   OrderPlace(){
-
+    let orders:any = []
+    if(localStorage.getItem("orders") != null){
+      orders = JSON.parse(localStorage.getItem("orders"));
+    }
+    const order = {
+      id: new Date().getTime(),
+      products: this.cart
+    }
+    orders.push(order);
+    localStorage.setItem("orders", JSON.stringify(orders));
+    sessionStorage.clear();
+    this.nav.navigateRoot('/')
   }
 
 }
