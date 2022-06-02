@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { CartComponent } from './cart/cart.component';
+import { OrdersComponent } from './orders/orders.component';
 import { ProductComponent } from './product/product.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
+  {
+    path: 'orders',
+    component: OrdersComponent
+  },
   {
     path: 'profile',
     component: ProfileComponent

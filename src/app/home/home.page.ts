@@ -38,4 +38,8 @@ export class HomePage {
     this.router.navigate(['/profile']);
   }
 
+  Navigate2Orders(){
+    this.router.navigate(['/orders']);
+  }
+
 }
