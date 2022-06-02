@@ -30,4 +30,8 @@ export class HomePage {
     this.router.navigate(['/product/'+window.btoa(JSON.stringify(item))])
   }
 
+  Navigate2Cart(){
+    this.router.navigate(['/cart']);
+  }
+
 }

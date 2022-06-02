@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button (click)="this.NavigationBack()"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Meu carrinho</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-list inset *ngFor="let data of cart; let i = index">
+      <ion-item>
+        {{item.name}}
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

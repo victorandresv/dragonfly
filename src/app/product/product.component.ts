@@ -11,9 +11,9 @@ export class ProductComponent implements OnInit {
 
   public product:any;
   public quantity: number = 1;
-  public cart:any;
+  public cart:any = [];
 
-  constructor(private activatedRoute:ActivatedRoute, private router: NavController) { 
+  constructor(private activatedRoute:ActivatedRoute, private nav: NavController) { 
     this.activatedRoute.paramMap.subscribe(
       (data) => {}
     );
@@ -35,11 +35,10 @@ export class ProductComponent implements OnInit {
   ngOnInit() {}
 
   NavigationBack(){
-    this.router.back()
+    this.nav.back()
   }
 
   AddQuantity(){
-    console.log('plus')
     this.quantity++;
   }
 
@@ -52,8 +51,9 @@ export class ProductComponent implements OnInit {
   Add2Cart(){
     this.product.quantity = this.quantity;
     this.cart.push(this.product);
-    sessionStorage.setItem("cart", JSON.stringify(this.product));
-    this.router.back();
+    sessionStorage.setItem("cart", JSON.stringify(this.cart));
+    this.nav.pop();
+    this.nav.navigateForward('/cart');
   }
 
 }
